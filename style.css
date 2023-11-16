@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500&family=Montserrat:wght@500&family=Poppins:wght@200;400;600&display=swap');
+
+.head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.H3{
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+    color: grey;
+    font-family: 'Poppins', sans-serif;
+}
+.H1{
+    font-size: 29px;
+    font-family: 'Poppins', sans-serif;
+    color: grey;
+    font-weight: 200;
+}
+.H2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 2px;
+}
+.para{
+    padding-left: 30%;
+    padding-right: 30%;
+}
+.part{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    font-family:'Poppins', sans-serif;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow:0px 1px 5px 0px hsl(229, 6%, 66%);
+    width: 350px;
+    height: 220px;
+}
+.card p{
+    color: grey;
+    font-size: 13px;
+}
+.inner0,.inner1,.inner2,.inner3{
+    padding-left: 20px;
+}
+.inner0 p,.inner1 p,.inner2 p,.inner3 p{
+    padding-right: 35px;
+}
+.inner0 img,.inner1 img,.inner2 img,.inner3 img{
+    padding-left: 70%;
+}
+span{
+    font-size: 20px;
+    font-weight: 700; 
+}
+#card0 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-top: 4px solid  hsl(180, 62%, 55%);
+}
+#card1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-top: 4px solid  hsl(0, 78%, 62%);
+}
+#card2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-top: 4px solid hsl(34, 97%, 64%);
+}
+#card3{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-top: 4px solid  hsl(212, 86%, 64%);
+}
+footer{
+    font-family: 'Poppins', sans-serif;
+    font-size: 200;
+}
+@media only screen and (max-width :384px) {
+    .H1{
+        font-size:25px;
+    }
+    .H2{
+        font-size: 25px;
+    }
+
+}
+@media only screen and (max-width :1126px) {
+    .part{
+        flex-direction: column;
+    }  
+    .para{
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+
+}
+
